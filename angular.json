@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "ElectLab": {
+      "i18n": {
+        "sources-locales": "fr-FR",
+        "locales": {
+          "en-US": "./src/locale/messages.en.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -39,6 +45,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": [
+              "en-US"
+            ],
             "outputPath": "dist/elect-lab",
             "index": "src/index.html",
             "main": "src/main.ts",
