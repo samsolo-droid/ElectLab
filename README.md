@@ -1,4 +1,5 @@
 # ElectLab
+ElectLab is a project for electronical professionals who desires to simulate their circuits in software before testing the products in their lab
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
